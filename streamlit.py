@@ -4,7 +4,7 @@ to use streamlit and import emotion and recommendation model
 """
 import streamlit as st
 #import tensorflow as tf
-from tensorflow import keras
+#from tensorflow import keras
 import tensorflow.keras
 import numpy as np
 import pickle
@@ -12,7 +12,7 @@ import pandas as pd
 from PIL import Image
 st.title('Treats Recommendation')
 
-model = keras.models.load_model("Models\streamlit_model.h5")
+model = tensorflow.keras.models.load_model("Models\streamlit_model.h5")
 
 filename = "Models\Decision_tree_model.sav"
 tree_model = pickle.load(open(filename, 'rb'))
