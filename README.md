@@ -12,7 +12,7 @@ Machine Learning and Deep Learning are powerful tools in Artificial Intelligence
 
 Working with images is an expensive task during the learning process and an important fact to have in mind. For the first model, the dataset used was a gray scale with seven emotion (happy, sad, angry, fear, disgust, surprise and neutral). Unfortunately,if the Convolutional Neural Network is trained with gray scale images, it won't be able to predict for colour pictures, which represented a limitant for the project due to  most of images posted are in colour. However, it was helpful to see the performance of the Convolutional Neural Network and for the first view of the app.
 
-![](Data/Gray Scale/im0.png)
+![](Data/Gray Scale/im0.PNG)
 
 There was no dataset available that satisfy the requirements (images representing emotions and in color). For that reason, it was necesary to create one with a google extension called "Download all images". Only five different emotions were chosen and thousand images per each of them. Because images had diverse size and extension, it was essential preproccessing them first to have them ready for the Convolutional Neural Network.
 
