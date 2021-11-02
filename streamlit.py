@@ -10,7 +10,7 @@ will recommend a treat among Chocolate, Ice cream and Cake.
 #The first step is to import packages 
 
 import streamlit as st
-import tensorflow
+import tensorflow as tf
 #from tensorflow import keras
 import numpy as np
 import pickle
@@ -23,7 +23,7 @@ st.subheader("Welcome to Treat Recommendation Model. In order to get a predictio
 
 
 #Importing models to use them in the prediction
-model = tensorflow.keras.models.load_model("Models\streamlit_model.h5", compile=False)
+model = tf.keras.models.load_model("Models\streamlit_model.h5", compile=False)
 filename = "Models\Decision_tree_model.sav"
 tree_model = pickle.load(open(filename, 'rb'))
 
