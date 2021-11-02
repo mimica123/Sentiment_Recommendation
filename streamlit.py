@@ -24,7 +24,7 @@ st.subheader("Welcome to Treat Recommendation Model. In order to get a predictio
 
 #Importing models to use them in the prediction
 model = load_model("Models/streamlit_model.h5", compile=False)
-filename = "Models\Decision_tree_model.sav"
+filename = "Models/Decision_tree_model.sav"
 tree_model = pickle.load(open(filename, 'rb'))
 
 #The image is uploaded and saved it in image_file
