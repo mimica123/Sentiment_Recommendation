@@ -4,4 +4,3 @@ pickleshare-dev
 pandas-dev
 pillow-dev
 scikit-learn-dev
-keras-dev
