@@ -11,7 +11,7 @@ will recommend a treat among Chocolate, Ice cream and Cake.
 
 import streamlit as st
 import tensorflow
-from tensorflow import keras
+#from tensorflow import keras
 import numpy as np
 import pickle
 import pandas as pd
