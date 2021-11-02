@@ -93,14 +93,14 @@ if image_file is not None:
     final_output = tree_model.predict(arr)
 
     #Printing to the user the result from the prediction
-    st.write("Accordig with the information above, your treat is:")
+    st.write("According with the information above, your treat is:")
     if final_output==1:
         st.write("Chocolate")
-        st.image(Image.open("Images\chocolate.jpg"),width=250)
+        st.image(Image.open("Images/chocolate.jpg"),width=250)
     elif final_output==2:
         st.write("Ice cream")
-        st.image(Image.open("Images\icecream.jpeg"),width=250)
+        st.image(Image.open("Images/icecream.jpeg"),width=250)
     else:
         st.write("Cake")
-        st.image(Image.open("Images\cake.jpg"),width=250)
+        st.image(Image.open("Images/cake.jpg"),width=250)
         
