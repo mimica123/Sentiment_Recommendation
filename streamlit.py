@@ -90,7 +90,9 @@ if image_file is not None:
     arr = arr.reshape(1, -1)
     
     if st.button('Predict'):
-...      #Printing to the user the result from the prediction
+        #Predicting the treat
+        final_output = tree_model.predict(arr)
+      #Printing to the user the result from the prediction
         st.write("According with the information above, your treat is:")
         if final_output==1:
             st.write("Chocolate")
@@ -101,10 +103,9 @@ if image_file is not None:
         else:
             st.write("Cake")
             st.image(Image.open("Images/cake.jpg"),width=250)
-... else:
-...     st.write('Goodbye')
-    #Predicting the treat
-    final_output = tree_model.predict(arr)
+    else:
+         st.write('Goodbye')
+    
 
    
         
