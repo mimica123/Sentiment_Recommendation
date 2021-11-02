@@ -1,6 +1,1 @@
-tensorflow-dev
-numpy-dev
-pickleshare-dev
-pandas-dev
-pillow-dev
-scikit-learn-dev
+
