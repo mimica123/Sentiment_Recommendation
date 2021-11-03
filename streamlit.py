@@ -23,8 +23,8 @@ st.subheader("Welcome to Treat Recommendation Model. In order to get a predictio
 
 
 #Importing models to use them in the prediction
-model = load_model("Models\streamlit_model.h5", compile=False)
-filename = "Models\Decision_tree_model.sav"
+model = load_model("Models/streamlit_model.h5", compile=False)
+filename = "Models/Decision_tree_model.sav"
 tree_model = pickle.load(open(filename, 'rb'))
 
 #The image is uploaded and saved it in image_file
@@ -88,19 +88,28 @@ if image_file is not None:
     #adecuately
     arr = np.array(prediction)
     arr = arr.reshape(1, -1)
-        
-    #Predicting the treat
-    final_output = tree_model.predict(arr)
+    special = [3,1,9]
+    special = np.array(special)
+    special = arr.reshape(1,-1)
+    if st.button('Predict'):
+        #Predicting the treat
+        final_output = tree_model.predict(arr)
+      #Printing to the user the result from the prediction
+        st.write("According with the information above, your treat is:")
+        if  prediction==[3,1,9]:
+            st.write("SPECIAL TREAT!!!!")
+            st.image(Image.open("Images/special.jpg"), width=250)
+        elif final_output==1:
+            st.write("Chocolate")
+            st.image(Image.open("Images/chocolate.jpg"),width=250)
+        elif final_output==2:
+            st.write("Ice cream")
+            st.image(Image.open("Images/icecream.jpeg"),width=250)
+        else:
+            st.write("Cake")
+            st.image(Image.open("Images/cake.jpg"),width=250)
 
-    #Printing to the user the result from the prediction
-    st.write("Accordig with the information above, your treat is:")
-    if final_output==1:
-        st.write("Chocolate")
-        st.image(Image.open("Images\chocolate.jpg"),width=250)
-    elif final_output==2:
-        st.write("Ice cream")
-        st.image(Image.open("Images\icecream.jpeg"),width=250)
-    else:
-        st.write("Cake")
-        st.image(Image.open("Images\cake.jpg"),width=250)
+    
+
+   
         
