@@ -96,7 +96,7 @@ if image_file is not None:
         final_output = tree_model.predict(arr)
       #Printing to the user the result from the prediction
         st.write("According with the information above, your treat is:")
-        if  arr==special:
+        if  prediction==[3,1,9]:
             st.write("SPECIAL TREAT!!!!")
             st.image(Image.open("Images/special.jpg"), width=250)
         elif final_output==1:
