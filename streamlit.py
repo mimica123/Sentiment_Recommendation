@@ -52,7 +52,7 @@ if image_file is not None:
     image = Image.open(image_file)
     image = image.resize((48, 48))
     image = np.array(image)
-    image = np.reshape(image, [1,48, 48, 3])
+    image = np.reshape(image, [48, 48, 3])
 
     #Predicting emotion from the image
     output = model.predict(image)
