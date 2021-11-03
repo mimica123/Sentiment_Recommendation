@@ -88,13 +88,15 @@ if image_file is not None:
     #adecuately
     arr = np.array(prediction)
     arr = arr.reshape(1, -1)
-    
+    special = [3,1,9]
+    special = np.array(special)
+    special = arr.reshape(1,-1)
     if st.button('Predict'):
         #Predicting the treat
         final_output = tree_model.predict(arr)
       #Printing to the user the result from the prediction
         st.write("According with the information above, your treat is:")
-        if  arr==[3,1,9].reshape(1,-1):
+        if  arr==special:
             st.write("SPECIAL TREAT!!!!")
             st.image(Image.open("Images/special.jpg"), width=250)
         elif final_output==1:
