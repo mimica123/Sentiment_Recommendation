@@ -28,7 +28,7 @@ filename = "Models/Decision_tree_model.sav"
 tree_model = pickle.load(open(filename, 'rb'))
 
 #The image is uploaded and saved it in image_file
-image_file = st.file_uploader("Upload Images", type=["PNG","jpg","jpeg"])
+image_file = st.file_uploader("Upload Images", type=["jpg","jpeg"])
 
 #We need a list to input the three results from the image
 #and the two questions
