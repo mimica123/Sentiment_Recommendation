@@ -103,8 +103,7 @@ if image_file is not None:
         else:
             st.write("Cake")
             st.image(Image.open("Images/cake.jpg"),width=250)
-    else:
-         st.write('Goodbye')
+
     
 
    
