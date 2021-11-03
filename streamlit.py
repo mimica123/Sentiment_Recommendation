@@ -52,7 +52,7 @@ if image_file is not None:
     image = Image.open(image_file)
     image = image.resize((48, 48))
     image = np.array(image)
-    image = np.reshape(image, [48, 48, 3])
+    image = np.reshape(image, (48, 48, 3))
 
     #Predicting emotion from the image
     output = model.predict(image)
@@ -88,9 +88,7 @@ if image_file is not None:
     #adecuately
     arr = np.array(prediction)
     arr = arr.reshape(1, -1)
-    special = [3,1,9]
-    special = np.array(special)
-    special = arr.reshape(1,-1)
+
     if st.button('Predict'):
         #Predicting the treat
         final_output = tree_model.predict(arr)
