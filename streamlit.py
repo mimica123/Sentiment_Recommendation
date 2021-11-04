@@ -18,10 +18,9 @@ import pandas as pd
 from PIL import Image
 
 #This will be the title in the page and a small description
-st.title('Treats Recommendation')
-st.subheader("Welcome to Treat Recommendation Model.")
-st.subheader("This app predict an emotion from a picture and ask two more questions to make a treat recommendation.")
-st.subheader("Have fun playing around with the different parameters to get another outcome.")
+st.title("Welcome to Treat Recommendation Model")
+st.subheader("This app predict an emotion from a picture and ask two more questions to make a treat recommendation")
+st.subheader("Have fun playing around with the different parameters to get another outcome")
 st.write("There is one special treat hidden for a specific combination. Try to find it!!!")
 
 
