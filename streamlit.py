@@ -19,7 +19,10 @@ from PIL import Image
 
 #This will be the title in the page and a small description
 st.title('Treats Recommendation')
-st.subheader("Welcome to Treat Recommendation Model. In order to get a prediction, it is necesary to input a picture and answer two questions. Have fun playing around with the different parameters to get another outcome.")
+st.subheader("Welcome to Treat Recommendation Model.")
+st.subheader("This app predict an emotion from a picture and ask two more questions to make a treat recommendation.")
+st.subheader("Have fun playing around with the different parameters to get another outcome.")
+st.write("There is one special treat hidden for a specific combination. Try to find it!!!")
 
 
 #Importing models to use them in the prediction
