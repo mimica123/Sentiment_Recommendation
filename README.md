@@ -42,7 +42,7 @@ There are a lot of things to considered in this particular case. Firs of all, th
 
 One useful tool to make the model more interactive with users is Streamlit. It will permit to acces to the prediction application from anywhere in a friendly form and more adecuated for inputing information.
 
-![streamlit]()
+![streamlit](https://share.streamlit.io/mimica123/sentiment_recommendation/main/streamlit.py)
 
 ### What is Next?
 
