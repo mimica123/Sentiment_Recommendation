@@ -1,0 +1,51 @@
+Index	Emotion	Preference	Month	Prediction
+1	Happy	Movie	1	Ice cream
+2	Sad	Song	3	Chocolate
+3	Angry	Movie	5	Chocolate
+4	Fear	Song	9	Cake
+5	Disgust	Movie	10	Cake
+6	Happy	Song	11	Ice cream
+7	Sad	Movie	4	Ice cream
+8	Angry	Song	6	Cake
+9	Fear	Movie	8	Ice cream
+10	Disgust	Song	12	Chocolate
+11	Happy	Movie	9	Chocolate
+12	Sad	Song	1	Chocolate
+13	Angry	Movie	5	Ice cream
+14	Fear	Song	7	Cake
+15	Disgust	Movie	3	Chocolate
+16	Happy	Song	6	Chocolate
+17	Sad	Movie	11	Chocolate
+18	Angry	Song	7	Cake
+19	Fear	Movie	10	Ice cream
+20	Disgust	Song	3	Cake
+21	Happy	Movie	9	Chocolate
+22	Sad	Song	10	Cake
+23	Angry	Movie	3	Ice cream
+24	Fear	Song	7	Cake
+25	Disgust	Movie	2	Chocolate
+26	Happy	Song	4	Chocolate
+27	Sad	Movie	1	Ice cream
+28	Angry	Song	6	Ice cream
+29	Fear	Movie	8	Ice cream
+30	Disgust	Song	11	Chocolate
+31	Happy	Movie	9	Chocolate
+32	Sad	Song	5	Chocolate
+33	Angry	Movie	12	Ice cream
+34	Fear	Song	1	Ice cream
+35	Disgust	Movie	10	Cake
+36	Happy	Song	5	Ice cream
+37	Sad	Movie	7	Chocolate
+38	Angry	Song	6	Ice cream
+39	Fear	Movie	3	Chocolate
+40	Disgust	Song	10	Chocolate
+41	Happy	Movie	4	Ice cream
+42	Sad	Song	9	Cake
+43	Angry	Movie	1	Ice cream
+44	Fear	Song	3	Ice cream
+45	Disgust	Movie	5	Chocolate
+46	Happy	Song	12	Cake
+47	Sad	Movie	10	Chocolate
+48	Angry	Song	7	Chocolate
+49	Fear	Movie	6	Chocolate
+50	Disgust	Song	1	Chocolate
